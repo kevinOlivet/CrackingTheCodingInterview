@@ -1,5 +1,6 @@
 /*:
- 1.2 Determine if a string is a permutation of another
+ 1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the
+ other.
  */
 
 // case and punctuation sensitive

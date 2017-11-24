@@ -1,6 +1,12 @@
 /*:
- 1.5 There are three types of characeter edits on strings: insert, replace, or delete.
- Write a function to return if one string is 0 or 1 edit away from the other
+ 1.5 One Away: There are three types of edits that can be performed on strings: insert a character,
+ remove a character, or replace a character. Given two strings, write a function to check if they are
+ one edit (or zero edits) away.
+ EXAMPLE
+ pale, ple -> true
+ pales, pale -> true
+ pale, bale -> true
+ pale, bake -> false
  */
 
 // My way
@@ -19,16 +25,12 @@ var s1 = "pale"
 var s2 = "ple"
 print(myOneEditAway(first: s1, second: s2))
 
-s1 = "pale"
-s2 = "ple"
-print(myOneEditAway(first: s1, second: s2))
-
-s1 = "pale"
+s1 = "pales"
 s2 = "pale"
 print(myOneEditAway(first: s1, second: s2))
 
 s1 = "pale"
-s2 = "pales"
+s2 = "bale"
 print(myOneEditAway(first: s1, second: s2))
 
 //Should be false because 2 away
