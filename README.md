@@ -41,3 +41,5 @@ pale, bake -> false
 of repeated characters. For example, the string aabcccccaaa would become a2b1c5a3. If the
 "compressed" string would not become smaller than the original string, your method should return
 the original string. You can assume the string has only uppercase and lowercase letters (a - z).
+
+1.7 Rotate an NxN matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. (Can you do this in place?)
