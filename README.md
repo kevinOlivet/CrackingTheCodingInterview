@@ -43,3 +43,5 @@ of repeated characters. For example, the string aabcccccaaa would become a2b1c5a
 the original string. You can assume the string has only uppercase and lowercase letters (a - z).
 
 1.7 Rotate an NxN matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. (Can you do this in place?)
+
+1.8 Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to O.
